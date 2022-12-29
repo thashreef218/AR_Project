@@ -1,0 +1,22 @@
+{
+"instructions_readme": "1) Open Chrome, 2) go to chrome://tracing, 3) click Load, 4) navigate to this file.",
+
+"traceEvents":[
+{ "pid": "Unity", "ph":"M", "name": "process_name", "args": {"name": "Unity"} },
+{ "pid": "Unity", "ph":"M", "name": "process_sort_index", "args": {"sort_index": -100} },
+{ "pid": "Unity", "tid": 1, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "Unity", "tid": 1,"ts": 1.67223317306334E+15,"dur": 9111281, "ph":"X", "name": "Build player"},
+{ "pid": "Unity", "tid": 1,"ts": 1.67223317311111E+15,"dur": 1372548, "ph":"X", "name": "Preprocess Player"},
+{ "pid": "Unity", "tid": 1,"ts": 1.67223317583802E+15,"dur": 4883210, "ph":"X", "name": "Prepare For Build"},
+{ "pid": "Unity", "tid": 1,"ts": 1.67223318072125E+15,"dur": 1373900, "ph":"X", "name": "ProducePlayerScriptAssemblies"},
+{ "pid": "Unity", "tid": 1,"ts": 1.6722331820119E+15,"dur": 82620, "ph":"X", "name": "Prebuild Cleanup and Recompile"},
+{}
+
+],
+"meta_datetime": "12/28/2022 18:43:02",
+"meta_command_line": "/home/thashri/Unity/Hub/Editor/2021.3.11f1/Editor/Unity -projectpath \"/home/thashri/AR Projects/My project copy1\" -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-thashri -hubSessionId 4bee54f0-86b0-11ed-875f-bdb43d281966 -accessToken BGUiTSw1xicvNAdG8NNtK4zvVeiZgzVYxxoublAN5U4008f",
+"meta_command_line_args": "/home/thashri/Unity/Hub/Editor/2021.3.11f1/Editor/Unity -projectpath /home/thashri/AR Projects/My project copy1 -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-thashri -hubSessionId 4bee54f0-86b0-11ed-875f-bdb43d281966 -accessToken BGUiTSw1xicvNAdG8NNtK4zvVeiZgzVYxxoublAN5U4008f",
+"meta_user_name": "thashri",
+"meta_os_version": "Unix 5.15.0.52",
+"meta_cpu_count": "16"
+}
